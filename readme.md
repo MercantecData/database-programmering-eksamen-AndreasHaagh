@@ -17,3 +17,5 @@ Hvis i undervejs finder ting i mener kunne laves bedre må i meget gerne lave de
 Til aflevering SKAL i huske at tilføje en .sql fil med den database i ender med at have. Uden denne er afleveringen desværre ugyldig. Derudover SKAL i tagge det commit som er jeres afleverings commit.
 
 God Arbejdslyst!!!
+
+Afleveret af Andreas Flyvholm Haagh
