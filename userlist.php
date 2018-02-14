@@ -14,7 +14,7 @@
 	<h1>Users:</h1>
 	<?php 
 	while($row = $result->fetch_assoc()){
-		echo $row["name"];
+		echo $row["id"];
 		echo "   <a href='?'>delete</a>";
 	}
 	?>
