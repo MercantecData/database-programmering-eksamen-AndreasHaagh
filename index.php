@@ -98,7 +98,9 @@ if($loggedIn) {
 				echo "<h2>Dine Billeder</h2>";
 				while($row = $imageresult->fetch_assoc()) {
 					$url = $row["imageURL"];
-					echo "<img class = 'myImage' src='$url'>";
+					$imgId = $row["id"];
+					echo "<a href='showimg.php?image=$url'><img class = 'myImage' src='$url'></a>";
+					echo "<a href='deleteImg.php?imageId=$imgId'>Delete</a>";
 				}
 			} 
 			?>
